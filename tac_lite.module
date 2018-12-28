@@ -304,7 +304,7 @@ function tac_lite_user($op, $edit, $account, $category = NULL) {
         if (count($vids)) {
           for ($i = 1; $i <= variable_get('tac_lite_schemes', 1); $i++) {
             $config = _tac_lite_config($i);
-            $terms = isset($account->$config['realm']) ? $account->$config['realm'] : array();
+            $terms = isset($account->{$config['realm']}) ? $account->{$config['realm']} : array();
             if ($config['name']) {
               $perms = $config['perms'];
               if ($config['term_visibility']) {
