@@ -2,9 +2,3 @@ name = Taxonomy Access Control Lite Create
 description = Hide taxonomy terms on node add/edit forms.
 dependencies[] = tac_lite
 core = 6.x
-
-; Information added by Drupal 6 LTS vendors on 2018-12-28
-version = "6.x-1.7"
-core = "6.x"
-project = "tac_lite"
-datestamp = "1546027832"
